@@ -1,0 +1,9 @@
+Service的使用解析:
+1,
+2,当启动一个Service的时候，会调用该Service中的onCreate()
+onCreate()方法只会在Service第一次被创建的时候调用
+3,Service和Activity通信
+4,Service和Thread的关系
+    Service和Thread之间没有任何关系
+    Service其实是运行在主线程里的
+   Thread是运行在子线程里的
